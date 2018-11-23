@@ -9,6 +9,9 @@ class Dog
     @name
   end
   def bark
-    @bark
+    @bark = woof
   end
+  def bark
+    @bark
+  end 
 end
