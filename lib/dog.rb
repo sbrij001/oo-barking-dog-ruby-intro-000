@@ -1,5 +1,6 @@
 # Your code goes here!
 class Dog
+  attr_accessor :name
   def initialize
     bark
   end
@@ -7,4 +8,3 @@ class Dog
     puts "woof!"
   end
 end
-snoopy = Dog.new
